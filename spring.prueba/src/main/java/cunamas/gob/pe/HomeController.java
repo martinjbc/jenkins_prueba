@@ -38,7 +38,7 @@ public class HomeController {
 		dto.setOperacion("+");
 		
 		int resultado=operacionesService.resultado(dto);
-		String mensaje="Se realizó la siguiente operación : "+dto.getN1()+dto.getOperacion()+dto.getN2()+"="+resultado;
+		String mensaje="Se realizó la siguiente operación Subida: "+dto.getN1()+dto.getOperacion()+dto.getN2()+"="+resultado;
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
 		String formattedDate = dateFormat.format(date);

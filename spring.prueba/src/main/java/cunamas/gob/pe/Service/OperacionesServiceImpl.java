@@ -14,14 +14,10 @@ public class OperacionesServiceImpl implements OperacionesService {
 	
 	@Override
 	public int resultado(OperacionesDto dto) {
-		try {
-			return operacionesDao.resultado(dto);
-		}catch(Exception ex) {
-			System.out.println(ex);
-			return 0;
-		}
-		
-		
+		return operacionesDao.resultado(dto);
+	}
+	public void setDao(OperacionesDao d) {
+		operacionesDao=d;
 	}
 
 }
