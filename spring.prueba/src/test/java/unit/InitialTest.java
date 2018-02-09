@@ -41,7 +41,7 @@ public class InitialTest {
 		OperacionesDao operacionesDao=new OperacionesDaoImpl();
 		OperacionesDto dto=new OperacionesDto();
 		dto.setN1(2);
-		dto.setN2(1);
+		dto.setN2(0);
 		dto.setOperacion("/");
 		operacionesService.setDao(operacionesDao);
 		int resultado=operacionesService.resultado(dto);
