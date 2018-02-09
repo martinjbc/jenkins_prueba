@@ -1,1 +1,6 @@
+cunamas\gob\pe\Service\OperacionesServiceImpl.class
+cunamas\gob\pe\Service\OperacionesService.class
 cunamas\gob\pe\HomeController.class
+cunamas\gob\pe\dto\OperacionesDto.class
+cunamas\gob\pe\Dao\OperacionesDaoImpl.class
+cunamas\gob\pe\Dao\OperacionesDao.class
